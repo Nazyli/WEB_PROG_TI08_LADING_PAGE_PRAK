@@ -7,7 +7,9 @@ p {
   font-size: 16px;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration:overline;
 }
 h2 {
   color: #30336b;
@@ -52,8 +54,11 @@ header {
   background-repeat: no-repeat;
 }
 .banner p {
-  color: #dfe6e9;
+  color: white;
   font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 25px;
 }
 
 section {
@@ -172,6 +177,30 @@ section {
 }
 .deskripsi ul {
   margin-left: -20px;
+}
+
+.produk .foto:hover {
+  border: 1px solid #dfe6e9;
+}
+.produk .foto{
+  border: 1px solid white;
+}
+.produk .foto img {
+  width: 100%;
+  height: 150px;
+}
+.produk .desc {
+  padding: 15px;
+  text-align: center;
+  color: #30336b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.produk {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 6px;
+  margin-bottom: 50px;
 }
 
 footer {
